@@ -27,7 +27,6 @@ services:
       timeout: 5s
       retries: 20
   adminer:
-    container_name: adminer
     image: adminer
     ports:
       - 8181:8080
